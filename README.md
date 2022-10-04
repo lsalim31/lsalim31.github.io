@@ -3,7 +3,6 @@
 
 This is a website to store some of my main projects throughout my sophomore/senior year in UC Berkeley. 
 
-# Projects
 ## Mathematics
 
 ### The Bridge Between Propositional Logic And Set Theoritic Expressions
