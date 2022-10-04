@@ -7,7 +7,7 @@ This is a website to store some of my main projects throughout my sophomore/seni
 
 ### The Bridge Between Propositional Logic And Set Theoritic Expressions
 - Wrote this [paper](https://github.com/lsalim31/lsalim31.github.io/blob/main/Paper.pdf) that connects two similar fields of mathematics through a very simple argument based on the notion of a group isomorphism. Abstract:
-> We consider the isomorphism between the groups $\mathbb{Z}_2^n$ and $\mathscr{P}(X)$, for any set $X$ with cardinality $n$. We investigate how this can be useful to see propositional logic through the lenses of set theory (and vice-versa), and prove some interesting consequences that connect both fields. 
+  - We consider the isomorphism between the groups $\mathbb{Z}_2^n$ and $\mathscr{P}(X)$, for any set $X$ with cardinality $n$. We investigate how this can be useful to see propositional logic through the lenses of set theory (and vice-versa), and prove some interesting consequences that connect both fields. 
 
 
 ### Analytic Number Theory on Riemann Hypothesis
