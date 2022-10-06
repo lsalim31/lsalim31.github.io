@@ -20,7 +20,7 @@ This is a website to store some of my main projects throughout my sophomore/seni
 - Built a version control system from scratch that simulates all major qualities of Git (init, add, commit, remove, log, branch, merge, etc). Used hidden folders to store previous commits, and the graph data structure combined with hash ids as file names to represent the commit log.
 
 ### Generalized version of the Enigma Machine
-- Complete break down of mechanism of the [Enigma Cypher](https://en.wikipedia.org/wiki/Enigma_machine) (used in WWII) and translation of such understanding into the language of classes in Object Oriented Programming.
+- Complete break down of mechanism of the [Enigma Cypher](https://en.wikipedia.org/wiki/Enigma_machine) (used in WWII) and translation of such understanding into the language of classes in Object Oriented Programming. 
 
 
 
@@ -35,7 +35,7 @@ This is a website to store some of my main projects throughout my sophomore/seni
 
 
 ### Theoretical analysis on the betas of portfolio risk minimization (Finance)
-- Derived theoretical results that connects the strength of the leading eingenvalue of the covariance matrix to the averege correlation between features in a High parameter dimension scheme. This has direct consequences to the use of betas in analytical portfolio managenment. This <a href="lsalim31.github.io/main/paper.pdf" target="_blank"> paper.</a> is the starting point for this research. 
+- Derived theoretical results that connects the strength of the leading eingenvalue of the covariance matrix to the averege correlation between features in a High parameter dimension scheme. This has direct consequences to the use of betas in analytical portfolio managenment. This <a href="lsalim31.github.io/main/paper.pdf" target="_blank"> paper.</a> by Goldberg is the starting point for this research. 
 
 
 
