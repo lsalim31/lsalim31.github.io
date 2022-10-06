@@ -1,7 +1,7 @@
 # Lucas Salim
 ## University of California Berkeley, Applied Mathematics (Cluster in Data Science)
 
-This is a website to store some of my main projects throughout my sophomore/senior year in UC Berkeley. Consider this an extended version of my <a href="lsalim31.github.io/resume.pdf" target="resume">PDF.</a>
+This is a website to store some of my main projects throughout my sophomore/senior year in UC Berkeley. Consider this an extended version of my <a href="lsalim31.github.io/resume.pdf" target="_blank">resume.</a>
  focused in my academic life. The website is separated by areas of studies, but each project is not limited to just one area. At the end, one can also find more [about me](https://lsalim31.github.io/#about-me). Some of the projects can be seen in my [github](https://github.com/lsalim31/projects).
 
 ## Machine Learning & Data Science
