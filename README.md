@@ -3,22 +3,6 @@
 
 This is a website to store some of my main projects throughout my sophomore/senior year in UC Berkeley. Consider this an extended version of my [resume](https://github.com/lsalim31/lsalim31.github.io/blob/main/resume.pdf) focused in my academic life. The website is separated by areas of studies, but each project is not limited to just one area. At the end, one can also find more [about me](https://lsalim31.github.io/#about-me). Some of the projects can be seen in my [github](https://github.com/lsalim31/projects).
 
-## Machine Learning & Data Science
-
-### Pacman AI
-- Coded a entire game of pacman that is fully automated using reinforcement learning. One of the best simple applications of [Gradient Descent optimatizaion](https://en.wikipedia.org/wiki/Gradient_descent).  
-
-### Breast Cancer Cohort
-- Designed a Random Forest model that predicts chances of high vs low survival period for a subset of the dataset for [patients with breast cancer](http://www.cbioportal.org/study/summary?id=brca_metabric) with an accuracy of 82%; discovered individual genes (and interaction between genes) crucial to such biological system.
-
-## Computer Science
-
-### Personal Version Control System 
-- Built a version control system from scratch that simulates all major qualities of Git (init, add, commit, remove, log, branch, merge, etc). Used hidden folders to store previous commits, and the graph data structure combined with hash ids as file names to represent the commit log.
-
-### Generalized version of the Enigma Machine
-- Complete break down of mechanism of the [Enigma Cypher](https://en.wikipedia.org/wiki/Enigma_machine) (used in WWII) and translation of such understanding into the language of classes in Object Oriented Programming. This project was really important to understand how classes work and the beauty of putting everything together in OOP.
-
 
 ## Mathematics
 
@@ -32,6 +16,23 @@ This is a website to store some of my main projects throughout my sophomore/seni
 
 ### Theoretical analysis on the betas of portfolio risk minimization (Finance)
 - Derived theoretical results that connects the strength of the leading eingenvalue of the covariance matrix to the averege correlation between features in a High parameter dimension scheme. This has direct consequences to the use of betas in analytical portfolio managenment. This <a href="https://cdar.berkeley.edu/sites/default/files/publications/the_dispersion_bias_1.2022.pdf" target="_blank"> paper</a> by Goldberg was the starting point for this project. 
+
+## Computer Science
+
+### Personal Version Control System 
+- Built a version control system from scratch that simulates all major qualities of Git (init, add, commit, remove, log, branch, merge, etc). Used hidden folders to store previous commits, and the graph data structure combined with hash ids as file names to represent the commit log.
+
+### Generalized version of the Enigma Machine
+- Complete break down of mechanism of the [Enigma Cypher](https://en.wikipedia.org/wiki/Enigma_machine) (used in WWII) and translation of such understanding into the language of classes in Object Oriented Programming. This project was really important to understand how classes work and the beauty of putting everything together in OOP.
+
+
+## Machine Learning & Data Science
+
+### Pacman AI
+- Coded a entire game of pacman that is fully automated using reinforcement learning. One of the best simple applications of [Gradient Descent optimatizaion](https://en.wikipedia.org/wiki/Gradient_descent).  
+
+### Breast Cancer Cohort
+- Designed a Random Forest model that predicts chances of high vs low survival period for a subset of the dataset for [patients with breast cancer](http://www.cbioportal.org/study/summary?id=brca_metabric) with an accuracy of 82%; discovered individual genes (and interaction between genes) crucial to such biological system.
 
 
 
