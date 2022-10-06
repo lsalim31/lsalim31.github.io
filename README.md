@@ -38,8 +38,8 @@ This is a website to store some of my main projects throughout my sophomore/seni
 
 ## About Me:
 I am a senior UC Berkeley undergraduate majoring in Applied Mathematics (cluster in Data Science). The effect Mathematics have on real world problems amazes me everyday; the more I learn about the world, the more I see use for this surprising subject. Indeed, I love solving practical problems, but I also delight in doing mathematics for its own sake; being analytical about my creativity is the perfect combination between the rational and irrational. I also love when pure becomes applied; to walk on the bridge between theory and practice. My passion about knowledge is not limited to math; I also deeply enjoy Philosophy, Physics, and I am interested in Computer Science, and Economics. I am very curious about the world, and I am always trying to learn something new (not limited to the academic life). For instance:
-- Sports: Soccer, Table Tennis, Tennis, Bowling, and Bodysurfing are a few of my favorites to explore.
-- Music: I play the piano for more than 10 years (and the guitar for more than 7 years), and I am constantly looking for new stories to tell through harmony. I cannot see myself without composing/listening music.  
+- Sports: Soccer, Table Tennis, Tennis, Bowling, and Bodysurfing are a few of my favorites to practice.
+- Music: I play the piano for more than 10 years (and the guitar for more than 7 years), and I am constantly looking for new stories to tell through the use of harmony. Composing and listening to music is a big part of my life.  
 
 
 ## Contact:
