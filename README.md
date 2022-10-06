@@ -10,7 +10,7 @@ This is a website to store some of my main projects throughout my sophomore/seni
 - Coded a entire game of pacman that is fully automated using reinforcement learning. One of the best simple applications of [Gradient Descent optimatizaion](https://en.wikipedia.org/wiki/Gradient_descent). 
 
 <video width="400" controls>
-  <source src="pacman.mov" type="video/mov">
+  <source src="pacman.mp4" type="video/mp4">
   Your browser does not support HTML video.
 </video>
 
