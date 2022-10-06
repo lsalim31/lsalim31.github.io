@@ -1,22 +1,20 @@
 # Lucas Salim
 ## University of California Berkeley, Applied Mathematics (Cluster in Data Science)
 
-This is a website to store some of my main projects throughout my sophomore/senior year in UC Berkeley. Consider this an extended version of my [resume](https://github.com/lsalim31/lsalim31.github.io/blob/main/Paper.pdf) focused in my academic life. The website is separated by areas of studies, but each project is not limited to just one area. At the end, one can also find more [about me](https://lsalim.github.io/#aboutme). Some of the projects can be seen in my [github](https://github.com/lsalim31/projects).
-
-<video width="400" controls>
-  <source src="mov_bbb.mp4" type="video/mp4">
-  <source src="mov_bbb.ogg" type="video/ogg">
-  Your browser does not support HTML video.
-</video>
+This is a website to store some of my main projects throughout my sophomore/senior year in UC Berkeley. Consider this an extended version of my [resume](https://lsalim31.github.io/main/resume.pdf) focused in my academic life. The website is separated by areas of studies, but each project is not limited to just one area. At the end, one can also find more [about me](https://lsalim.github.io/#aboutme). Some of the projects can be seen in my [github](https://github.com/lsalim31/projects).
 
 ## Machine Learning & Data Science
 
 ### Pacman AI
-- Coded a entire game of pacman that is fully automated using reinforcement learning. One of the best simple applications of [Gradient Descent optimatizaion](https://en.wikipedia.org/wiki/Gradient_descent).  
+- Coded a entire game of pacman that is fully automated using reinforcement learning. One of the best simple applications of [Gradient Descent optimatizaion](https://en.wikipedia.org/wiki/Gradient_descent). 
 
+<video width="400" controls>
+  <source src="pacman.mov" type="video/mov">
+  Your browser does not support HTML video.
+</video>
 
 ### Breast Cancer Cohort
-- Designed a Random Forest model that predicts chances of high vs low survival period for [patients with breast cancer](http://www.cbioportal.org/study/summary?id=brca_metabric) with an accuracy of 82%; discovered individual genes crucial to such biological system.
+- Designed a Random Forest model that predicts chances of high vs low survival period for a subset of the dataset from [patients with breast cancer](http://www.cbioportal.org/study/summary?id=brca_metabric) with an accuracy of 82%; discovered individual genes crucial to such biological system.
 
 
 ## Computer Science
@@ -25,7 +23,7 @@ This is a website to store some of my main projects throughout my sophomore/seni
 - Built a version control system from scratch that simulates all major qualities of Git (init, add, commit, remove, log, branch, merge, etc). Used hidden folders to store previous commits, and the graph data structure combined with hash ids as file names to represent the commit log.
 
 ### Generalized version of the Enigma Machine
-- Complete break down of mechanism of the [Enigma Cypher](https://en.wikipedia.org/wiki/Enigma_machine) (used in WWII) and translation of such understanding into the language of classes in Object Oriented Programming. 
+- Complete break down of mechanism of the [Enigma Cypher](https://en.wikipedia.org/wiki/Enigma_machine) (used in WWII) and translation of such understanding into the language of classes in Object Oriented Programming.
 
 
 
