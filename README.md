@@ -35,7 +35,7 @@ This is a website to store some of my main projects throughout my sophomore/seni
 
 
 ### Theoretical analysis on the betas of portfolio risk minimization (Finance)
-- Derived theoretical results that connects the strength of the leading eingenvalue of the covariance matrix to the averege correlation between features in a High parameter dimension scheme. This has direct consequences to the use of betas in analytical portfolio managenment. This <a href="lsalim31.github.io/main/paper.pdf" target="_blank"> paper.</a> by Goldberg is the starting point for this research. 
+- Derived theoretical results that connects the strength of the leading eingenvalue of the covariance matrix to the averege correlation between features in a High parameter dimension scheme. This has direct consequences to the use of betas in analytical portfolio managenment. This <a href="https://cdar.berkeley.edu/sites/default/files/publications/the_dispersion_bias_1.2022.pdf" target="_blank"> paper.</a> by Goldberg is the starting point for this research. 
 
 
 
