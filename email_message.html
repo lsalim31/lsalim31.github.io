@@ -46,7 +46,7 @@
 <body>
 
 <div class="container">
-    <h2>Enter your email to receive private messages:</h2>
+    <h2>Enter your email:</h2>
     <form id="emailForm">
         <input type="email" id="email" placeholder="Enter your email" required>
         <br>
@@ -62,11 +62,11 @@
         var email = document.getElementById("email").value;
 
         // Use your EmailJS User ID and Template ID
-        emailjs.init("lucasnobresalim2@gmail.com");
+        emailjs.init("W1noIBsBbAHNENOw7");
         var templateParams = {
             to_email: email
         };
-        emailjs.send("GU2xkf2Nb7r1cYv_GuPdc", "template_fy2xl4h", templateParams)
+        emailjs.send("service_91gf5hp", "template_fy2xl4h", templateParams)
             .then(function(response) {
                 console.log("Email sent successfully");
                 document.getElementById("confirmationMessage").style.display = "block";
