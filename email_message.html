@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Confirmation</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+    .container {
+        text-align: center;
+    }
+    input[type="email"] {
+        padding: 10px;
+        width: 250px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .message-box {
+        background-color: rgba(0, 123, 255, 0.8); /* Transparent blue */
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Enter your email to receive private messages:</h2>
+    <form id="emailForm">
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <input type="submit" value="Confirm">
+    </form>
+    <div id="confirmationMessage" class="message-box">Thank you! Your email has been received.</div>
+</div>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    document.getElementById("emailForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var email = document.getElementById("email").value;
+
+        // Use your EmailJS User ID and Template ID
+        emailjs.init("lucasnobresalim2@gmail.com");
+        var templateParams = {
+            to_email: email
+        };
+        emailjs.send("GU2xkf2Nb7r1cYv_GuPdc", "template_fy2xl4h", templateParams)
+            .then(function(response) {
+                console.log("Email sent successfully");
+                document.getElementById("confirmationMessage").style.display = "block";
+            }, function(error) {
+                console.error("Error sending email:", error);
+            });
+    });
+</script>
+
+</body>
+</html>
