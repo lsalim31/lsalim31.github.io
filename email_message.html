@@ -57,7 +57,9 @@
     <div id="confirmationMessage" class="message-box">Thank you! Your email has been received.</div>
 </div>
 
+    
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 <script>
     document.getElementById("emailForm").addEventListener("submit", function(event) {
         event.preventDefault();
@@ -76,7 +78,9 @@
         emailjs.send("service_91gf5hp", "template_fy2xl4h", templateParams)
             .then(function(response) {
                 console.log("Email sent successfully");
+                // Display the message immediately
                 document.getElementById("confirmationMessage").style.display = "block";
+                // Disable the submit button to prevent multiple submissions
                 document.getElementById("submitBtn").disabled = true;
             }, function(error) {
                 console.error("Error sending email:", error);
