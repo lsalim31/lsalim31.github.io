@@ -143,9 +143,9 @@ input, select, textarea {
 		width: device-width;
 	}
 
-	body {
+	/* body {
 		-ms-overflow-style: scrollbar;
-	}
+	} */
 
 	@media screen and (max-width: 480px) {
 
@@ -1544,8 +1544,8 @@ repeat;
 		-moz-user-select: none;
 		-ms-user-select: none;
 		-webkit-user-select: none;
-		/* background: #1f2224; */
-		background: black;
+		background: transparent;
+		background: rgb(20, 20, 20);
 		top: 0em;
 		/* bottom: -1em; */
 		height: 4em;
@@ -1631,7 +1631,7 @@ repeat;
 							background-color: #242629;
 						}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 880px) {
 
 		body {
 			padding: 4em 0 0 0;
@@ -1657,12 +1657,49 @@ repeat;
 			}
 
 			#header h1 {
-				font-size: 0.9em;
+				font-size: 0.6em;
 			}
 
 			#header nav > ul > li a {
-				font-size: 0.9em;
-				padding: 0 1.15em;
+				font-size: 0.6em;
+				padding: 0 1.1em;
+			}
+
+	}
+
+
+	@media screen and (max-width: 500px) {
+
+		body {
+			padding: 4em 0 0 0;
+		}
+
+		#header {
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			bottom: auto;
+			height: 4em;
+			padding: 0 1em;
+			top: 0;
+			line-height: 3em;
+		}
+
+			body.is-preload #header {
+				-moz-transform: translateY(-3.4em);
+				-webkit-transform: translateY(-3.4em);
+				-ms-transform: translateY(-3.4em);
+				transform: translateY(-3.4em);
+			}
+
+			#header h1 {
+				font-size: 0.4em;
+			}
+
+			#header nav > ul > li a {
+				font-size: 0.4em;
+				padding: 0 1em;
 			}
 
 	}
@@ -1683,6 +1720,8 @@ repeat;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		position: relative;
+		z-index: 10001;
 	}
 
 		#main .thumb {
@@ -1727,6 +1766,7 @@ repeat;
 				position: absolute;
 				top: 0;
 				width: 100%;
+				transition: transform 0.3s ease;
 			}
 
 			#main .thumb > h2 {
@@ -1737,6 +1777,15 @@ repeat;
 				margin: 0;
 				position: absolute;
 				z-index: 1;
+				display: none;
+			}
+
+			#main .thumb:hover > h2 {
+				display: block; 
+			}
+
+			#main .thumb:hover > .image {
+				transform: scale(1.05); /* Scale the image slightly on hover */
 			}
 
 			#main .thumb > p {
@@ -2095,9 +2144,9 @@ repeat;
 				-webkit-transition-delay: 1.175s;
 				-ms-transition-delay: 1.175s;
 				transition-delay: 1.175s;
-				min-height: 18em;
-				height: calc(40vh - 2em - 20px); /* Adjust accordingly */
-				width: calc(100% - 20px); /* Adjust accordingly */
+				min-height: 5em;
+				height: calc(20vh - 2em - 20px); /* Adjust accordingly */
+				width: calc(50% - 20px); /* Adjust accordingly */
 			}
 
 				#main .thumb:nth-child(1) {
@@ -2149,3 +2198,4 @@ repeat;
 	.dropdown:hover .dropdown-content {
 		display: block;
 	}
+

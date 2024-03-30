@@ -61,8 +61,8 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<span class="image main"><img src="images/about.jpg" alt="" /></span>
+								<p>Marcio Salim is a highly skilled professional with 20+ years of Camera Operator / Cameraman experience leading large-scale studio operations in broadcasting companies. Expertise in photography, lighting, and video concepts for relevant projects, including the Olympic and Paralympic Games, live TV shows, documentaries, and international events. Trilingual Portuguese (native language), English (fluent), and Spanish (fluent)..</p>
 							</article>
 
 						<!-- Contact -->
@@ -356,6 +356,30 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				// JavaScript for changing background images
+				var bgImages = [
+					'images/background1.jpg',
+					'images/background2.jpg',
+					'images/background3.jpg',
+					'images/background4.jpg',
+					'images/background5.jpg',
+					'images/background6.jpg',
+					'images/background7.jpg',
+					'images/background8.jpg'
+					// Add more image URLs as needed
+				];
+				var currentBgIndex = 0;
+				var bgElement = document.getElementById('bg');
+		
+				function changeBackground() {
+					bgElement.style.backgroundImage = 'url(' + bgImages[currentBgIndex] + ')';
+					currentBgIndex = (currentBgIndex + 1) % bgImages.length;
+				}
+		
+				changeBackground(); // Change background initially
+				setInterval(changeBackground, 5000); // Change background every 5 seconds
+			</script>
 
 	</body>
 </html>
