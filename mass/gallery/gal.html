@@ -27,7 +27,7 @@
 									<a href="works.html" class="icon solid fa-camera">Works</a>
 									<div class="dropdown-content">
 										<a href="../index.html#work">Landscapes</a>
-										<a href="../index.html#work">Corporative</a>
+										<a href="../index.html#work">Photographer</a>
 										<a href="../index.html#work">Option 3</a>
 									</div>
 								</li>								
@@ -43,8 +43,27 @@
 					<div id="main">
 						<article class="thumb">
 							<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
-							<h2>Planet Earth, Year 3016</h2>
-							<p>This picture was taken in X.</p>
+							<div class="image-details">
+								<h2>Planet Earth, Year 3016</h2>
+								<p>This picture was taken in X.</p>
+								<!-- Form container -->
+								<div class="form-container">
+									<form id="imageForm">
+										<!-- Form elements (size, material, frame) -->
+										<label for="size">Size:</label>
+										<select id="size" name="size">
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<!-- Other form elements go here -->
+										<!-- Button to add to cart -->
+										<button type="submit" id="addToCartButton">Add to Cart</button>
+										<!-- Price display -->
+										<div id="priceDisplay">$0.00</div>
+									</form>
+								</div>
+							</div>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" /></a>
@@ -162,57 +181,7 @@
 							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
 						</article>
 					</div>
-
-				<!-- Footer -->
-					<!-- <footer id="footer" class="panel">
-						<div class="inner split">
-							<div>
-								<section>
-									<h2>Magna feugiat sed adipiscing</h2>
-									<p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
-								</section>
-								<section>
-									<h2>Follow me on ...</h2>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</section>
-								<p class="copyright">
-									&copy; Unttled. Design: <a href="http://html5up.net">HTML5 UP</a>.
-								</p>
-							</div>
-							<div>
-								<section>
-									<h2>Get in touch</h2>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="field half">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-											<div class="field">
-												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-							</div>
-						</div>
-					</footer> -->
-
 			</div>
-
 
 		<!-- BG -->
 			<div id="bg"></div>

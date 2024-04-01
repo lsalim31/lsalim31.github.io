@@ -1105,7 +1105,7 @@ input, select, textarea {
 	}
 
 /* BG */
-
+/* 
 	#bg {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
@@ -1127,10 +1127,10 @@ input, select, textarea {
 		0%, 100% {
 			opacity: 0;
 		}
-		60%, 10% {
+		40%, 60% {
 			opacity: 1;
 		}
-	}
+	} */
 
 		#bg:before, #bg:after {
 			content: '';
@@ -1170,7 +1170,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			/* background-image: url("../../images/bg.jpg"); */
+			background-image: url("../../images/background4.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
