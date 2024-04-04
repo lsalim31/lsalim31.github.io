@@ -1179,7 +1179,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images2/background4.jpg");
+			background-image: url("../../images/thumbs/jellyfish.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1263,7 +1263,7 @@ repeat;
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-		background-image: url("../../images2/background4.jpg");
+		background-image: url("../../images/thumbs/jellyfish.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -2641,5 +2641,26 @@ repeat;
 
 	#contact {
 		padding: 50px;
-		margin: auto 200px;
+		margin: 100px 200px 0px 200px;
+	}
+
+	@media only screen and (max-width: 900px) {
+		#contact {
+			padding: 50px;
+			margin: 100px 50px 0px 50px;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		#contact {
+			padding: 10px;
+			margin: 100px 50px 0px 50px;
+		}
+	}
+
+	@media only screen and (max-width: 480px) {
+		#contact {
+			padding: 10px;
+			margin: 220px 25px 0px 25px;
+		}
 	}
