@@ -1821,9 +1821,9 @@ repeat;
 			opacity: 1;
 			overflow: hidden;
 			position: relative;
-			margin: 30px;
-			height: calc(30vh - 2em - 30px); 
-			width: calc(25% - 120px); 
+			margin: 10px;
+			height: calc(35vh - 20px); 
+			width: calc(25% - 20px); 
 		}
 
 			#main2 .thumb:after {
