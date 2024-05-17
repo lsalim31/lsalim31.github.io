@@ -203,7 +203,7 @@ input, select, textarea {
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+			margin: 5rem 0 1rem 0;
 		}
 
 	h1 {
@@ -1179,7 +1179,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/thumbs/jellyfish.jpg");
+			background-image: url("../../images/thumbs/fishing.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1263,7 +1263,7 @@ repeat;
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-		background-image: url("../../images/thumbs/jellyfish.jpg");
+		background-image: url("../../images/thumbs/fishing.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -2688,3 +2688,42 @@ repeat;
 			margin: 220px 25px 0px 25px;
 		}
 	}
+
+
+/* WORK PHOTOS PAGE */
+
+.photos-work-container{
+	top: -200px;
+    position: relative;
+	margin: 50px 200px 0px 200px;
+	text-align: left; 
+	/* background-color: #1b1f22; */
+	padding: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.photos-work-container {
+		margin: 0px 100px 0px 100px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.photos-work-container {
+		margin: 0px 50px 0px 50px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.photos-work-container {
+		margin: 0px 20px 0px 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.photos-work-container {
+		margin: 0px 10px 0px 10px;
+		top: 0px;
+	}
+}
+
+
